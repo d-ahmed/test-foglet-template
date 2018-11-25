@@ -1,0 +1,22 @@
+
+.Btn{
+    position: absolute !important;
+}
+
+.keyboard_arrow_left{
+    margin-top: 50px !important;
+}
+
+.keyboard_arrow_up{
+    margin-left: 50px !important;
+}
+
+.keyboard_arrow_right{
+    margin-top: 50px !important;
+    margin-left: 100px !important;
+}
+
+.keyboard_arrow_down{
+    margin-top: 100px !important;
+    margin-left: 50px !important;
+}

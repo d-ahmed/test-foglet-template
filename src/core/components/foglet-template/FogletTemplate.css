@@ -1,0 +1,10 @@
+.FogletTemplate{
+    display: block;
+    width: 100%;
+}
+
+.Navigation{
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
