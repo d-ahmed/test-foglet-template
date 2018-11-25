@@ -66,7 +66,7 @@ class FogletTemplate extends Component{
 
         this.spawnTarget("1", {
             coordinates: { x: 5, y: 5 },
-            perimeter: 4
+            perimeter: 100
         });
 
         setInterval(()=>{
@@ -105,7 +105,6 @@ class FogletTemplate extends Component{
             this.setState({
                 graph:graph
             })
-            // console.log(nodes)
         })
     }
 
@@ -185,7 +184,7 @@ class FogletTemplate extends Component{
             return;
         }
         let graph = this.state.graph;
-        var updated = graph.nodes.find(e => e.id == node.id)
+        var updated = graph.nodes.find(e => e.id === node.id)
         if(updated){
             updated = Object.assign(updated, node)
             this.setState({
